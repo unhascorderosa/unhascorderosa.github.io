@@ -45,13 +45,12 @@ a{
     font-weight: bold;	
 }
 
-.current-page{
-  color: #FFFFFF;
+a.current-page { 
+  color: #FFFFFF !important; 
   background-color:#D84A68; 
   border-top-left-radius:25%;
   border-top-right-radius:25%;  
 }
-
 
 	/* 3 posts that apear at Home Page*/
 
@@ -65,7 +64,7 @@ a{
 .content-column-even {
 	box-sizing: border-box;
   padding: 5%;
-  background-color: rgba(216, 74, 104, .1);
+  background-color: rgba(216, 74, 104, .05);
   height: 800px;
 }
 
@@ -85,7 +84,7 @@ a{
   position 
 	box-sizing: border-box;
 	border: 1px solid #D84A68;
-	background-color: rgba(216, 74, 104, .1);
+	background-color: rgba(216, 74, 104, .05);
 	padding: 2%;
 	margin-bottom: 5%;
 	width: 21%
@@ -185,11 +184,11 @@ textarea {
 
 /* Background style of each Home page section*/
 #about{
-  background-color: rgba(216, 74, 104, .1);	
+  background-color: rgba(216, 74, 104, .05);	
 }
 
 #services{
-  background-color: rgba(216, 74, 104, .1);	
+  background-color: rgba(216, 74, 104, .05);	
 }
 
 #porfolio {
@@ -197,15 +196,15 @@ textarea {
 }
 
 #promotions{
-  background-color: rgba(216, 74, 104, .1);	
+  background-color: rgba(216, 74, 104, .05);	
 }
 
 #localization {
-  background-color: rgba(216, 74, 104, .1);	
+  background-color: rgba(216, 74, 104, .05);	
 }
 
 #sitemap{
-  background-color: rgba(216, 74, 104, .1); 
+  background-color: rgba(216, 74, 104, .05); 
 }
 
 /* style heading spacer*/
@@ -349,8 +348,8 @@ img {
 
 /* style carousel*/
 .carousel-inner{
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 0%;
+  padding-bottom: 0%;
 
 }
 .carousel-control.left {
