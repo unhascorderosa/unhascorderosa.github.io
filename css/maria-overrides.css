@@ -1,0 +1,457 @@
+/* Generic style*/
+body{
+ 	font-size: 170%;
+}
+
+h1{
+	font-size: 350%;
+	text-shadow: 2px 2px #a5a5a5;
+	line-height: 150%;
+}
+
+h2{
+	font-size: 250%;
+	color: #D84A68;
+	text-shadow: 2px 2px #a5a5a5;
+}
+
+
+h3{
+	font-size: 230%;
+	color: #D84A68;
+}
+
+
+h4{
+	font-size: 170%;
+	color: #D84A68;
+}
+
+a{
+ 	color: #D84A68;
+}
+
+/*-- my classes --*/
+.textShadow{
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, .6);	
+}
+
+.textWhite{
+	color: #FFFFFF;
+	font-size: 130%;
+}
+
+.textbold{
+    font-weight: bold;	
+}
+
+.current-page{
+  color: #FFFFFF;
+  background-color:#D84A68; 
+  border-top-left-radius:25%;
+  border-top-right-radius:25%;  
+}
+
+
+	/* 3 posts that apear at Home Page*/
+
+.content-column-odd {
+	box-sizing: border-box;
+  padding: 5%;
+  background-color: rgba(200, 200, 200, .2);
+  height: 800px;
+}
+
+.content-column-even {
+	box-sizing: border-box;
+  padding: 5%;
+  background-color: rgba(216, 74, 104, .1);
+  height: 800px;
+}
+
+	/* use for post's pages*/
+.contentLeft{
+	float: left;
+	box-sizing: border-box;
+	padding: 2%;
+	margin-left: 2%;
+	width: 74%
+}
+.sideRight{
+	float: right;
+  position: fixed;
+  top: 15%;
+  right:6%;
+  position 
+	box-sizing: border-box;
+	border: 1px solid #D84A68;
+	background-color: rgba(216, 74, 104, .1);
+	padding: 2%;
+	margin-bottom: 5%;
+	width: 21%
+}
+
+.tags {
+	font-size: 110%;
+	color: #D84A68;
+}
+
+.contentLeft img{
+	width: 67%;
+	text-align: left;
+  margin: 0;
+}
+
+.sideRight img{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.sideRight .btn{
+  width: 30%;
+  margin: 0 auto;
+  font-size: 90%;
+}
+/*-- end my classes --*/
+
+/*-- Post's page date styles --*/
+post-meta{
+	font-style: italic;
+	font-size: 100%;
+	font-weight: 150;
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, .6);
+	color: #FFFFFF;
+}
+
+
+/* Form Style*/
+form{
+	background-color: rgba(231, 231, 231, .6);
+	padding-top: 5%;
+	padding-bottom: 3%;
+	padding-left: 1%;
+	padding-right: 1%;
+	margin-left: 5%;
+	margin-right: 5%; 
+}
+
+input {
+	box-sizing: border-box;
+	border: 1px solid rgba(220, 220, 220, .9);
+	padding: 1%;
+	margin: 0;	
+	width: 90%;
+}
+
+textarea {
+	box-sizing: border-box;
+	border-color: rgba(220, 220, 220, .9);
+	padding: 1%;
+	margin: 0;
+	width: 90%;	
+}
+
+.btn-send{
+	width: 40%;
+	margin: 0 auto;	
+}
+.frame {
+	border: 3px solid rgba(220, 220, 220, .9);
+	padding: 0;
+	margin: 0;
+}
+
+
+.btn-info{
+	background-color: rgba(216, 74, 104, .8);
+	border: 1px solid #D84A68;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.btn-info:hover, .btn-info:active{
+	background-color: rgba(200, 200, 200, .8);
+	border: 1px solid #e7e7e7;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 100%;
+}
+
+/* Background style of each Home page section*/
+#about{
+  background-color: rgba(216, 74, 104, .1);	
+}
+
+#services{
+  background-color: rgba(216, 74, 104, .1);	
+}
+
+#porfolio {
+  background-color: rgba(255, 255, 255, .1);		
+}
+
+#promotions{
+  background-color: rgba(216, 74, 104, .1);	
+}
+
+#localization {
+  background-color: rgba(216, 74, 104, .1);	
+}
+
+#sitemap{
+  background-color: rgba(216, 74, 104, .1); 
+}
+
+/* style heading spacer*/
+.section-heading-spacer {
+    float: left;
+    width: 55%;
+    border-top: 3px solid #e7e7e7;
+}
+
+.section-heading-spacer-centered {
+    display: block;
+    margin: 0 auto;
+    width: 35%;
+    border-top: 3px solid #e7e7e7;
+}
+
+/* Resize containers (to be wigther)*/
+.container {
+  width: 98%;
+  padding-right: 5%;
+  padding-left: 5%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    width: 98%;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 98%;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 98%;
+  }
+}
+
+div.intro-header {
+	max-height: 700px;
+}
+
+div .intro-message{
+	max-height: 700px;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	margin: 0 auto;	
+}
+
+
+
+/*-- The posts at blog --*/
+.content-section-b{
+	border-top: none;
+	border-bottom: none;
+} 
+
+/* Center the images*/
+
+img {
+    margin: 0 auto;
+}
+
+.img-responsive {
+	margin: 0 auto;
+}
+
+.icon{
+	display: inline-block;
+	position: relative;
+}
+
+
+
+/* Style the Navagation Bar */
+.navbar-brand{
+
+  font-size: 28px;
+  font-style: bold;
+  font-variant: small-caps;
+  line-height: 28px;
+}
+
+.navbar-default .navbar-brand{
+  color: #D84A68;
+  font-weight: bold;
+  font-size: 200%; 
+}
+
+.navbar-default .navbar-brand:hover{
+  color: #777;
+  text-shadow: 1px 1px #D84A68;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+  color: #D84A68;
+  background-color: #E6E6E6;
+  border-top-left-radius:25%;
+  border-top-right-radius:25%;	
+}
+
+.navbar-default .navbar-nav>li>a:active{
+  color: #FFFFFF;
+  background-color:#D84A68;	
+  border-top-left-radius:25%;
+  border-top-right-radius:25%;	
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  color: #FFFFFF;
+  background-color:#D84A68;	
+  border-top-left-radius:25%;
+  border-top-right-radius:25%;	
+}
+
+.navbar-default .navbar-nav>.open>a{
+  color: #FFFFFF;
+  background-color:#D84A68;	
+  border-top-left-radius:25%;
+  border-top-right-radius:25%;	
+}
+
+.dropdown-menu>li>a {
+	color: #777;
+	font-size: 130%;
+}
+
+.dropdown-menu>li>a:hover {
+  color: #D84A68;
+  background-color: #E6E6E6;
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+  color: #FFFFFF;
+  background-color:#D84A68;
+}
+
+/* style carousel*/
+.carousel-inner{
+  padding-top: 2%;
+  padding-bottom: 2%;
+
+}
+.carousel-control.left {
+  background-image: -webkit-linear-gradient(left, rgba(216, 74, 104, .2) 0%, rgba(216, 74, 104, .0001) 100%);
+  background-image:      -o-linear-gradient(left, rgba(216, 74, 104, .2) 0%, rgba(216, 74, 104, .0001) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(216, 74, 104, .2)), to(rgba(216, 74, 104, .0001)));
+  background-image:         linear-gradient(to right, rgba(216, 74, 104, .2) 0%, rgba(216, 74, 104, .0001) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+  background-repeat: repeat-x;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.carousel-control.right {
+  right: 0;
+  left: auto;
+  background-image: -webkit-linear-gradient(left, rgba(216, 74, 104, .0001) 0%, rgba(216, 74, 104, .2) 100%);
+  background-image:      -o-linear-gradient(left, rgba(216, 74, 104, .0001) 0%, rgba(216, 74, 104, .2) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(216, 74, 104, .0001)), to(rgba(216, 74, 104, .2)));
+  background-image:         linear-gradient(to right, rgba(216, 74, 104, .0001) 0%, rgba(216, 74, 104, .2) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+  background-repeat: repeat-x;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+
+/*-- 404 page based on intro (Home Page)--*/
+.pageNotFound-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/404page-bg.jpg) no-repeat 100%;
+    background-size: cover;
+    max-height: 700px;
+    margin: 0;
+}
+
+
+.pageNotFound-message {
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 10%;
+	max-height: 700px;
+	margin: 0 auto;	     
+}
+
+.pageNotFound-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 2);
+}
+.pageNotFound-message > h1 {
+    margin: 0;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 6);
+    font-size: 600%;
+    line-height: 100%;
+}
+
+.pageNotFound-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 6);
+    font-size: 350%;
+}
+
+.pageNotFound-message > h4 {
+    color: #FFFFFF;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, .4);
+    font-size: 200%;
+}
+
+.pageNotFound-message > p {
+    color: #FFFFFF;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, .4);
+    font-size: 125%;
+}
+
+@media(max-width:767px) {
+    .pageNotFound-message {
+        padding-bottom: 15%;
+    }
+
+    .pageNotFound-message > h1 {
+        font-size: 3em;
+    }
+    .pageNotFound-divider {
+        width: 100%;
+    }
+}
+
+/* Footer */
+footer{
+    padding-top: 0.5%;
+    padding-bottom:0.5%;
+}
+
+/* Footer's Image)*/
+.banner {
+    padding-top: 3%;
+    padding-bottom:2%;	
+    color: #D84A68;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+    margin-bottom: 1%; 
+}
