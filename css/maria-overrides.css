@@ -47,9 +47,9 @@ a{
 
 a.current-page { 
   color: #FFFFFF !important; 
-  background-color:#D84A68; 
-  border-top-left-radius:25%;
-  border-top-right-radius:25%;  
+  background-color:#D84A68 !important; 
+  border-top-left-radius:25% !important;
+  border-top-right-radius:25% !important;  
 }
 
 	/* 3 posts that apear at Home Page*/
@@ -177,11 +177,66 @@ textarea {
 .btn-info:hover, .btn-info:active{
 	background-color: rgba(200, 200, 200, .8);
 	border: 1px solid #e7e7e7;
-	color: #FFFFFF;
+	color: #D84A68;
 	font-weight: bold;
 	font-size: 100%;
 }
 
+.btn-services {
+  color: #FFFFFF;
+  background-color: rgba(216, 74, 104, .8);
+  border: 1px solid #D84A68;
+  font-weight: bold;
+  font-size: 100%;
+  margin: 0 auto;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  text-align: center;
+  touch-action: none;
+
+}
+.btn-services:hover,
+.btn-services:focus,
+.btn-services.focus,
+.btn-services:active,
+.btn-services.active,
+.open > .dropdown-toggle.btn-services {
+  color: #D84A68 !important;
+  font-weight: bold;
+  font-size: 120%;
+  background-color: rgba(200, 200, 200, .8);
+  border: 1px solid #e7e7e7;
+}
+.btn-services:active,
+.btn-services.active,
+.open > .dropdown-toggle.btn-services {
+  background-image: none;
+}
+.btn-services.disabled,
+.btn-services[disabled],
+fieldset[disabled] .btn-services,
+.btn-services.disabled:hover,
+.btn-services[disabled]:hover,
+fieldset[disabled] .btn-services:hover,
+.btn-services.disabled:focus,
+.btn-services[disabled]:focus,
+fieldset[disabled] .btn-services:focus,
+.btn-services.disabled.focus,
+.btn-services[disabled].focus,
+fieldset[disabled] .btn-services.focus,
+.btn-services.disabled:active,
+.btn-services[disabled]:active,
+fieldset[disabled] .btn-services:active,
+.btn-services.disabled.active,
+.btn-services[disabled].active,
+fieldset[disabled] .btn-services.active {
+  background-color: rgba(200, 200, 200, .8);
+  border: 1px solid #e7e7e7;
+}
+.btn-services .badge {
+  color: #fff;
+  background-color: #333;
+}
 /* Background style of each Home page section*/
 #about{
   background-color: rgba(216, 74, 104, .05);	
